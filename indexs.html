@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive JavaScript Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Event Handling Demo</h1>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="themeToggle">Switch Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="incrementBtn">Click Me!</button>
+    <p>Count: <span id="counter">0</span></p>
+  </section>
+
+  <section>
+    <h2>Collapsible FAQ</h2>
+    <div class="faq">
+      <button class="faq-question">What is JavaScript?</button>
+      <div class="faq-answer">JavaScript is a programming language for the web.</div>
+    </div>
+    <div class="faq">
+      <button class="faq-question">Why learn it?</button>
+      <div class="faq-answer">It makes websites interactive and dynamic!</div>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name" /></label><br />
+      <label>Email: <input type="email" id="email" /></label><br />
+      <label>Password: <input type="password" id="password" /></label><br />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
